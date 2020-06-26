@@ -1,6 +1,6 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
 def key_for_min_value(name_hash)
-  current_value = 0
+  current_value = 1000
   new_array = []
   place_in_array = name_hash.size - 1
   name_hash.each do |key, value|
