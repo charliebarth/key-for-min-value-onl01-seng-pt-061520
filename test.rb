@@ -10,3 +10,5 @@ def key_for_min_value(name_hash)
     end
   puts new_array[place_in_array]
 end
+ikea = {:chair => 25, :table => 85, :mattress => 450}
+key_for_min_value(ikea)
