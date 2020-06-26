@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     end
   end
    if new_array.size == 0
-     return 0
+     return nil
    else
      return new_array
    end
