@@ -12,5 +12,5 @@ def key_for_min_value(name_hash)
       else 
     end
   end
-  puts new_array
+   new_array
 end
