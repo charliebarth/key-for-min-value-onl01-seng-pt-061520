@@ -3,9 +3,11 @@
 
 def key_for_min_value(name_hash)
   current_value = 0
-name_hash.each do |key, value|
-  if value > current_value
-    elsif value < current_value
-    val
-  
+  new_array = []
+  place_in_array = name_hash.size - 1
+  name_hash.each do |key, value|
+    if value > current_value
+      else value < current_value
+    end
+  new_array
 end
