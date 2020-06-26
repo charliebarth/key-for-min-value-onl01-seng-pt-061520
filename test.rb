@@ -1,2 +1,2 @@
-hash = {"value one" => 450, "vaule two" => 250}
+hash = {"key" => 450, "vaule two" => 250}
 puts hash["#{value one}"]
