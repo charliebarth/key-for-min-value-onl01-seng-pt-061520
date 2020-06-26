@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if value > current_value
       new_array << key
-      current_value += value
+      current_value = value
       else value < current_value
     end
-  new_array[]
+  new_array[place_in_array]
 end
