@@ -15,6 +15,6 @@ def key_for_min_value(name_hash)
    if new_array.size == 0
      return nil
    else
-     return new_array.to_s
+     return new_array.join
    end
 end
