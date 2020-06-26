@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   current_value = 1000
   new_array = []
-  place_in_array = name_hash.size - 1
+  place_in_array = new_array.size - 1
   name_hash.each do |key, value|
     if value <= current_value
       new_array << key
@@ -15,6 +15,6 @@ def key_for_min_value(name_hash)
    if new_array.size == 0
      return nil
    else
-     return new_array
+     return new_array[place_in_array]
    end
 end
