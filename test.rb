@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       else 
     end
   end
-  puts new_array[place_in_array]
+  puts new_array
 end
 
 key_for_min_value(ikea)
