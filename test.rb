@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if value < current_value
       new_array << key
       current_value = value
-      else value > current_value
+      else 
     end
   end
   puts new_array[place_in_array]
