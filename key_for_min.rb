@@ -12,5 +12,9 @@ def key_for_min_value(name_hash)
       else 
     end
   end
-   new_array
+   if new_array.size == 0
+     return 0
+   else
+     return new_array
+   end
 end
