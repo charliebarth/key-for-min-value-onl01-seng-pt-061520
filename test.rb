@@ -9,7 +9,8 @@ def key_for_min_value(name_hash)
       current_value = value
       else value < current_value
     end
+  end
   puts new_array[place_in_array]
 end
-end
+
 key_for_min_value(ikea)
