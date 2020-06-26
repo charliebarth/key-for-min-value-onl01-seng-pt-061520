@@ -1,2 +1,2 @@
 hash = {"key" => 450, "vaule two" => 250}
-puts hash["450"]
+puts hash[450]
